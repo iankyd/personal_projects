@@ -1,0 +1,97 @@
+.container {
+    margin: auto;
+    width: 75%;
+    font-family: "open-sans";
+}
+
+.header {
+    width: 99%;
+    border-style: groove;
+    border-radius: 10px;
+    margin: auto;
+    display: inline-block;
+    border-color: black;
+}
+
+.header h1 {
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.content {
+    display: inline-block;
+}
+
+.links,
+.introduction,
+.about-us-container,
+.contact-us-container {
+    padding: 5px;
+    width: 49%;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.links {
+    float: left;
+    height: 207px;
+    padding-top: 20px;
+}
+
+.links a {
+    margin-top: 30px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.about-us-container {
+    width: 99%;
+    display: inline-block;
+}
+
+.about-us-content,
+.about-us-image {
+    width: 49%;
+    display: inline-block;
+}
+
+.about-us-image img {
+    float: initial;
+    width: 41%;
+    margin-left: 166px;
+}
+
+.about-us-content h2 {
+    margin: auto;
+}
+
+.contact-us-container {
+    width: 99%;
+}
+
+.contact-container {
+    width: 50%;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+.contact-container span,
+.contact-container strong {
+    display: inherit;
+    text-align: center;
+}
+
+.contact-container strong {
+    margin-bottom: 10px;
+}
+
+.map-link {
+    margin-top: 20px;
+}
