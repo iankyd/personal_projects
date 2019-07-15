@@ -1,97 +1,84 @@
-.container {
-    margin: auto;
-    width: 75%;
-    font-family: "open-sans";
+.nav-bar {
+    overflow: hidden;
+    background-color: #9fc4f8;
 }
 
-.header {
-    width: 99%;
-    border-style: groove;
-    border-radius: 10px;
-    margin: auto;
-    display: inline-block;
-    border-color: black;
-}
-
-.header h1 {
-    width: 90%;
-    display: inline-block;
+.nav-bar a {
+    float: left;
+    font-size: 16px;
+    color: #000000;
     text-align: center;
-    margin: auto;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.product {
+    float: left;
+    overflow: hidden;
+}
+
+.product .product-button {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #000000;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.product:hover .product-button {
+    background-color: #9fc4f8;
+}
+
+.product-content {
+    display: none;
+    position: absolute;
+    background-color: #9fc4f8;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.product-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.product-content a:hover {
+    background-color: #ddd;
+}
+
+.product:hover .product-content {
+    display: block;
+}
+
+.container {
+    background-color: #8d7cc2;
+}
+
+.upper-content p,
+.upper-img {
+    display: inline-block;
     padding: 10px;
 }
 
-.content {
-    display: inline-block;
-}
-
-.links,
-.introduction,
-.about-us-container,
-.contact-us-container {
-    padding: 5px;
+.upper-content p {
     width: 49%;
-    margin-top: 10px;
-    margin-right: 10px;
-    border-style: solid;
-    border-radius: 10px;
-    display: inline-block;
 }
 
-.links {
-    float: left;
-    height: 207px;
-    padding-top: 20px;
+.upper-img {
+    width: 49%
 }
 
-.links a {
-    margin-top: 30px;
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-}
-
-.about-us-container {
-    width: 99%;
-    display: inline-block;
-}
-
-.about-us-content,
-.about-us-image {
-    width: 49%;
-    display: inline-block;
-}
-
-.about-us-image img {
-    float: initial;
-    width: 41%;
-    margin-left: 166px;
-}
-
-.about-us-content h2 {
+.container,
+.nav-bar {
+    width: 75%;
     margin: auto;
-}
-
-.contact-us-container {
-    width: 99%;
-}
-
-.contact-container {
-    width: 50%;
-    margin: auto;
-    background-color: aquamarine;
-}
-
-.contact-container span,
-.contact-container strong {
-    display: inherit;
-    text-align: center;
-}
-
-.contact-container strong {
-    margin-bottom: 10px;
-}
-
-.map-link {
-    margin-top: 20px;
 }
