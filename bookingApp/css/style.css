@@ -1,0 +1,14 @@
+.seats{
+    border: solid;
+    margin: auto;
+    width: 100%;
+}
+.seat{
+    border:solid;
+    border-radius: 5%;
+    display: inline-block;
+    width: 9%;
+    height:50px;
+    background-color: green;
+    margin: 7px;
+}

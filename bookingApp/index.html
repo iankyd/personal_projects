@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>bookingApp</title>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Select: Number of tickets-->
+        <div class="tickets">
+            <select id="noTickets">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+            <button id="getTicketsNo">Next</button>
+        </div>
+
+        <!-- Input: Date -->
+        <div class="date" style="display: none">
+            <input type="date" id="date"></input>
+            <button id="getDate">Next</button>
+        </div>
+
+        <!-- Input: User Details -->
+        <div id="userDetails" style="display:none"></div>
+
+        <!-- Division: -->
+        <div id="theater" style="display: none"></div>
+    </div>
+</body>
+<script src='./js/jquery.js'></script>
+<script src='./js/script.js'></script>
+</html>

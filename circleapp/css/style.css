@@ -1,0 +1,49 @@
+.container{
+    border: solid black;
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    background-color: aquamarine;
+}
+.header{
+    border: solid black;
+    display: inline-block;
+    width: 100%;
+    background-color: black;
+}
+.header h1{
+     text-align: center;
+     font-size: 30px;
+     color: red;
+}
+.timer{
+    float: right;
+    width: 20%;
+    color: rgb(179, 255, 0);
+    height: 35px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+}
+.scoreboard{
+    float: left;
+    width: 20%;
+    height: 35px;
+    margin-bottom: 8px;
+    color: aqua;
+}
+.start-button{
+    border: solid ;
+    text-align: center;
+    margin-left: 240px;
+    margin-top: 8px;
+}
+.playground{
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    margin-top: 40px;
+    background-color: azure;
+}
+.bubbles{
+    position: relative;
+}
